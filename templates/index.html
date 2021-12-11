@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block title%}
+<title>Food store</title>
+{% endblock %}
+
+{% block body%}
+<div>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Початковий</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">0 грн<small class="text-muted fw-light">/місяць</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Постачання 1 раз на тиждень</li>
+              <li>Зв'язок за допомогою email</li>
+              <li>Доступ до довідкового центру</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Зареєструватись</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Професійна</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">2000 грн<small class="text-muted fw-light">/місяць</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Постачання 3 раз на тиждень</li>
+              <li>Первинний зв'язок за допомогою email</li>
+              <li>Доступ до довідкового центру</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary">Придбати підписку</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-primary">
+          <div class="card-header py-3 text-white bg-primary border-primary">
+            <h4 class="my-0 fw-normal">Розширена</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">5000 грн<small class="text-muted fw-light">/місяць</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Постачання до 5 разів на тиждень</li>
+              <li>Миттєвий зв'язок по телефону та email</li>
+              <li>Доступ до довідкового центру</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary">Зателефонувати нам</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+{% endblock %}
